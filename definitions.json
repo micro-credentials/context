@@ -1,1 +1,11 @@
-
+{
+  "@context": {
+    "@vocab": "https://github.com/micro-credentials",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "validatorId": { "@type": "@id" },
+    "issuerId": { "@type": "@id" },
+    "credentialId": { "@type": "@id" },
+    "validFrom": { "@type": "xsd:date" },
+    "validUntil": { "@type": "xsd:date" }
+  }
+}
